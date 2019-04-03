@@ -1,6 +1,6 @@
-# typescript-starter
+# typescript-react-lib-starter
 
-A simplistic typescript boilerplate using babel, tslint, ava, and CircleCI.
+A simplistic typescript lib boilerplate using React, babel, tslint, ava, and CircleCI.
 
 ```bash
 nvm use 10.15.1
