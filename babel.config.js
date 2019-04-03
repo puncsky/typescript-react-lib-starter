@@ -8,8 +8,9 @@ module.exports = {
         }
       }
     ],
+    ["@babel/preset-react"],
     ["@babel/preset-typescript"]
   ],
   plugins: [],
-  ignore: [/node_modules\//g]
+  ignore: [/node_modules\/(?!onefx)/g]
 };
