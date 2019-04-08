@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/puncsky/typescript-react-lib-starter.svg?style=svg)](https://circleci.com/gh/puncsky/typescript-react-lib-starter)
+
 # typescript-react-lib-starter
 
 A simplistic typescript lib boilerplate using React, babel, tslint, ava, and CircleCI.
