@@ -1,8 +1,8 @@
 import test from "ava";
-import render from "react-test-renderer";
-import React from "react";
 // @ts-ignore
 import browserEnv from "browser-env";
+import React from "react";
+import render from "react-test-renderer";
 import Component from "..";
 import { TestRoot } from "../../.dev/test-root";
 browserEnv();
