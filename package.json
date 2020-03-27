@@ -69,7 +69,7 @@
     "@babel/preset-react": "7.9.4",
     "@babel/preset-typescript": "7.9.0",
     "@babel/register": "7.9.0",
-    "@types/node": "11.15.7",
+    "@types/node": "11.15.8",
     "@types/react-test-renderer": "16.9.2",
     "ava": "1.4.1",
     "awesome-typescript-loader": "5.2.1",
