@@ -1,23 +1,24 @@
-version: 2
+version: 2.1
+
+orbs:
+  node: circleci/node@10.22.1-browsers-legacy
 
 jobs:
   build:
-    docker:
-      - image: "circleci/node:10.22.1-browsers-legacy@sha256:b5f07c0c2b80faa4193ef0d4f4d2b024a03a7ebf90cdd78996d4ad38fcf16900"
+    executor:
+      name: node/default
+
     steps:
       - checkout
-      # Download and cache dependencies
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "package.json" }}
-          # fallback to using the latest cache if no exact match is found
-          - v1-dependencies-
-      - run: npm install
-      - save_cache:
-          paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
-      - run: npm test
+      - node/install-packages
+      - run:
+	  name: test
+          command: npm run test
       - store_artifacts:
           path: coverage
           prefix: coverage
+
+workflows:
+  build:
+    jobs:
+      - build
