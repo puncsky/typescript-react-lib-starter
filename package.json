@@ -70,7 +70,7 @@
     "@babel/register": "7.11.5",
     "@types/node": "11.15.31",
     "@puncsky/eslint-config-onefx": "2.5.0",
-    "@puncsky/eslint-config-onefx-react": "2.4.3",
+    "@puncsky/eslint-config-onefx-react": "2.5.0",
     "@types/react-test-renderer": "16.9.3",
     "ava": "1.4.1",
     "awesome-typescript-loader": "5.2.1",
