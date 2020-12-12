@@ -68,7 +68,7 @@
     "@babel/preset-react": "7.12.10",
     "@babel/preset-typescript": "7.12.7",
     "@babel/register": "7.12.10",
-    "@types/node": "11.15.39",
+    "@types/node": "11.15.40",
     "@puncsky/eslint-config-onefx": "2.5.0",
     "@puncsky/eslint-config-onefx-react": "2.5.0",
     "@types/react-test-renderer": "16.9.4",
